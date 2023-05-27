@@ -175,11 +175,30 @@ nav a:hover{
     text-align: center;
  }
  .foot1{
+    text-align: center;
     display: flex;
-    justify-content: space-between;
+    justify-content:  center;
     align-items: center;
+    margin-right: 15px;
+    width: 100%;
+    
+ }
+ .foot2{
+    text-align: center;
+
  }
 
+ .final{
+    text-align: center;
+    align-items: center;
+
+ }
+ .corpo{
+    text-align: center;
+    align-items: center;
+    font-size: smaller;
+ }
+ 
 
 @media (max-width:700px ){
     header{
@@ -201,5 +220,18 @@ nav a:hover{
         flex-direction: column;
         font-size: small;
     }
+    .foot1{
+        flex-direction: column;
+        padding-right: 23px;
+    }
+    .corpo{
+        flex-direction: column;
+        font-size: xx-small;
+    }
+    .final{
+        font-size: medium;
+    }
+
+    
 
 }
