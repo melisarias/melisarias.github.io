@@ -64,7 +64,7 @@ nav a:hover{
 }
 
 .Iniciofotos{
-
+    margin-top:0;
     display: flex;
     align-items: center;
     width: 100%;
@@ -75,18 +75,17 @@ nav a:hover{
 
 
 
-.sobremi{
-    margin-top: 35px;
-}
+
 .Sobremi{
     color: white;
     font-size: x-large;
     width: 50%;
-    height: 120px;
-    padding: 5px;
+    height: 200px;
+    padding: 50px;
+    
     align-items: center;
     text-align: center;
-    margin: auto;
+    margin:auto;
  }
 .galery{
     color: aliceblue;
@@ -202,9 +201,10 @@ nav a:hover{
  .carousel-inner{
     width: auto;
     height: 500px;
-    padding: 20px;
+   
     align-items: center;
     overflow-y: scroll;
+    box-shadow: 2px 0 3px 5px rgba(0, 0, 0, .2);
  }
  
 
@@ -217,8 +217,7 @@ nav a:hover{
     }
     .Sobremi{
         flex-direction: column;
-        padding-top: 0px;
-        padding: 0;
+        padding: 28px;
         font-size:small;
     }
     .Iniciofotos{
@@ -243,6 +242,12 @@ nav a:hover{
     }
     .light-box img{
         width: 250px;
+    }
+    .carousel-inner{
+        width: auto;
+        height: auto;
+        padding: 0;
+        
     }
     
 
