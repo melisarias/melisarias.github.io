@@ -198,6 +198,14 @@ nav a:hover{
     align-items: center;
     font-size: smaller;
  }
+
+ .carousel-inner{
+    width: auto;
+    height: 500px;
+    padding: 20px;
+    align-items: center;
+    overflow-y: scroll;
+ }
  
 
 @media (max-width:700px ){
@@ -217,10 +225,12 @@ nav a:hover{
         padding-top: 0px;
     }
     .galery{
+        
         flex-direction: column;
         font-size: small;
     }
     .foot1{
+        
         flex-direction: column;
         padding-right: 23px;
     }
@@ -231,6 +241,10 @@ nav a:hover{
     .final{
         font-size: medium;
     }
+    .light-box img{
+        width: 250px;
+    }
+    
 
     
 
