@@ -53,6 +53,7 @@ header{
 }
 nav{
     margin-right: 10px;
+    font-size: larger;
 }
 nav a{
     margin-right: 5px;
@@ -82,7 +83,6 @@ nav a:hover{
     width: 50%;
     height: 200px;
     padding: 50px;
-    
     align-items: center;
     text-align: center;
     margin:auto;
@@ -213,7 +213,10 @@ nav a:hover{
         flex-direction: column;
     }
     nav{
-        padding: 10px 0px;
+        padding: 7px 0px;
+        font-size: small;
+        text-align: center;
+        margin-left: 18px;
     }
     .Sobremi{
         flex-direction: column;
